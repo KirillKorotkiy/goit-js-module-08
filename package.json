@@ -1,0 +1,24 @@
+{
+  "name": "vite-project-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "vite",
+    "template"
+  ],
+  "author": "Kirill Korotkiy <kropivnyy@gmail.com>",
+  "homepage": "https://KirillKorotkiy.github.io/goit-js-module-08",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/vite-project-template/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0",
+    "vite": "2.9.8",
+    "vite-plugin-handlebars": "^1.6.0",
+    "vite-plugin-html": "^3.2.0"
+  }
+}
